@@ -307,7 +307,7 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
-.product-detail--card .clock {
+.product-detail--icon {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -316,6 +316,18 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.eye {
+    background-image: url(../icons/eye.svg);
+}
+
+.dollar {
+    background-image: url(../icons/dollar-sign.svg);
+}
+
+.check {
+    background-image: url(../icons/check-circle.svg);
 }
 
 .product-card--title {
@@ -351,3 +363,59 @@ main {
     color: var(--white);
     text-align: center;
 }
+
+.main-plans-container {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.plans--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.plans--title h2 {
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+
+.plans--title p {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+}
+
+.plans-container--card  {
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.recomended {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    top: -15px;
+    left: calc(50% - 60px);
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: white;
+}
+
