@@ -151,13 +151,46 @@ main {
     color: #757575;
 }
 
+.main-tables-container {
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+}
+
 .main-currency-table {
+    position: relative;
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
-    margin: 0 auto;
+    margin: 0 60px;
     font-family: "Inter", sans-serif;
+    scroll-snap-align: center;
+}
+
+.main-currency-table .arrow-right {
+    position: absolute;
+    display: inline-block;
+    top: calc(45% - 5px);
+    left: calc(100% + 15px);
+    width: 8px;
+    height: 12px;
+    background-image: url(../icons/vector-right-black.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-currency-table .arrow-left {
+    position: absolute;
+    display: inline-block;
+    width: 8px;
+    height: 12px;
+    top: calc(45% - 5px);
+    right: calc(100% + 15px);
+    background-image: url(../icons/vector-left-black.svg);
+    
 }
 
 .main-currency-table .currency-table--title {
@@ -166,6 +199,10 @@ main {
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
+}
+
+.main-currency-table .currency-table--title--comisiones {
+    color: #1A9AF7;
 }
 
 .currency-table--container {
@@ -243,6 +280,10 @@ main {
     padding: 8px;
     background-color: var(--soft-orange);
     border-radius: 8px;
+}
+
+.currency-table--date--comisiones {
+    background-color: #E7F5FF;
 }
 
 .currency-table--date p {
@@ -401,7 +442,7 @@ main {
     gap: 10px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
+    scroll-snap-type: x mandatory;
 }
 
 .plans-container--card  {
@@ -416,6 +457,14 @@ main {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+#plans-container--card--left {
+    margin-left: 60px;
+}
+
+#plans-container--card--right {
+    margin-right: 60px;
 }
 
 .recomended {
@@ -480,4 +529,35 @@ main {
     height: 20px;
     background-image: url(../icons/arrow-right-orange.svg);
     vertical-align: text-bottom;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+
+footer section {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .left ul {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.left li {
+    margin: 10px 0;
+}
+
+.left a {
+    text-decoration: none;
+    color: var(--white);
 }

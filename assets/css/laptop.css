@@ -1,0 +1,118 @@
+header img {
+    width: 350px;
+    height: 50px;
+}
+
+.header__title-container {
+    max-width: 1024px;
+}
+
+.header__title-container h1 {
+    font-size: 3.2rem;
+    margin-bottom: 50px;
+}
+
+.header__title-container p {
+    font-size: 2.1rem;
+}
+
+.header__title-container .header__button {
+    width: 335px;
+    height: 55px;
+    font-size: 1.8rem;
+}
+
+.header__button span {
+    width: 15px;
+    height: 10px;
+    margin-left: 35px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.main-exchange-container .backgroundImg {
+    width: 300px;
+    height: 150px;
+    margin-bottom: 25px;
+}
+
+.main-exchange-container h2 {
+    font-size: 3.2rem;
+}
+
+.main-exchange-container p {
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+
+.main-currency-table .currency-table--title {
+    font-size: 2.4rem;
+    margin-bottom: 25px;
+}
+
+.main-tables-container {
+    height: 450px;
+}
+
+.currency-table--container td {
+    font-size: 1.8rem;
+}
+
+.currency-table--container .table__right {
+    font-size: 1.8rem;
+}
+
+.currency-table--date {
+    width: 300px;
+    height: 60px;
+    margin-top: 25px;
+}
+
+.main-product-detail {
+    height: 750px;
+}
+
+.product-detail--card {
+    height: auto;
+    padding: 20px;
+    margin: 20px;
+}
+
+.product-detail--icon {
+    width: 25px;
+    height: 25px;
+}
+
+.product-detail--title {
+    height: 20%;
+}
+
+.product-detail--title h2 {
+    font-size: 3.2rem;
+    margin-bottom: 30px;
+}
+
+.product-detail--title p {
+    font-size: 2.1rem;
+}
+
+.product-card--title {
+    font-size: 2.1rem;
+    margin-bottom: 20px;
+}
+
+.product-card--body {
+    font-size: 1.8rem;
+}
+
+.bitcoin-img-container {
+    height: 50vh;
+}
+
+
+
+
+

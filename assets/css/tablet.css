@@ -1,0 +1,41 @@
+.main-tables-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main-currency-table {
+    margin: 0 auto;
+}
+
+.product-cards--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-detail--card {
+    width: 45%;
+    margin: 15px 15px;
+}
+
+.bitcoin-img-container h2 {
+    font-size: 4.2rem;
+    padding-top: 80px;
+}
+
+.plans-container--slider {
+    gap: 25px;
+}
+
+#plans-container--card--left {
+    margin-left: 40px;
+}
+
+#plans-container--card--right {
+    margin-right: 40px;
+}
+
+.main-plans-container {
+    padding-bottom: 0;
+}

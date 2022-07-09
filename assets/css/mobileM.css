@@ -1,0 +1,9 @@
+.main-currency-table .arrow-right {
+    top: calc(45% - 5px);
+    left: calc(100% + 32px);
+}
+
+.main-currency-table .arrow-left {
+    top: calc(45% - 5px);
+    right: calc(100% + 32px);
+}
